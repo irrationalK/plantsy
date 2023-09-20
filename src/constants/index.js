@@ -42,7 +42,7 @@ export const plants_products = [
     },
     {
         imgURL: plant3,
-        name: "Chameadorea Catarcatarum",
+        name: "Haworthopsis Iimifolia",
         price: "$6.90",
     },
     {
@@ -73,31 +73,20 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        customerName: 'Kevin L.',
+        rating: 5.0,
+        feedback: "The plants I received from this shop are thriving and have transformed my living space into a green haven!"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        customerName: 'Ati L.',
+        rating: 4.6,
+        feedback: "Not only are their plants of exceptional quality, but the care tips and customer service are truly top-notch."
     }
 ];
 
 
 export const footerLinks = [
-    {
-        title: "Products",
-        links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
-        ],
-    },
     {
         title: "Help",
         links: [
@@ -111,8 +100,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customer@plantsy.com", link: "mailto:customer@plantsy.com" },
+            { name: "+0123456789", link: "tel:+0123456789" },
         ],
     },
 ];

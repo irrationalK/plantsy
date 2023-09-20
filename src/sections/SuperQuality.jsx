@@ -1,4 +1,4 @@
-import { shoe8 } from "../assets/images";
+import { plant6 } from "../assets/images";
 import Button from "../components/Button"
 
 const SuperQuality = () => {
@@ -11,12 +11,10 @@ const SuperQuality = () => {
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
           We Provide You
           <span className='text-plant-green'> Super </span>
-          <span className='text-plant-green'>Quality </span> Shoes
+          <span className='text-plant-green'>Quality </span> Plants
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+        Ensuring lush vibrancy and aesthetic, our carefully curated plants are meant to enhance your environment, offering unmatched quality, growth potential, and a touch of natural elegance.
         </p>
         <p className='mt-6 lg:max-w-lg info-text'>
           Our dedication to detail and excellence ensures your satisfaction
@@ -26,15 +24,16 @@ const SuperQuality = () => {
         </div>
       </div>
 
-      <div className='flex-1 flex justify-center items-center'>
+      <div className='flex-1 flex justify-center items-center bg-card bg-center bg-cover rounded-xl'>
         <img
-          src={shoe8}
+          src={plant6}
           alt='product detail'
           width={570}
           height={522}
           className='object-contain'
         />
       </div>
+     
     </section>
   );
 };
