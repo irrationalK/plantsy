@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigPlant1, bigPlant2, bigPlant3, customer1, customer2, shoe4, shoe5, shoe6, shoe7 } from "../assets/images";
+import { bigPlant1, bigPlant2, bigPlant3, customer1, customer2, plant1, plant2, plant3, plant4 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -29,26 +29,26 @@ export const statistics = [
     { value: '250k+', label: 'Customers' },
 ];
 
-export const products = [
+export const plants_products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        imgURL: plant1,
+        name: "String of Hearts",
+        price: "$9.99",
     },
     {
-        imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        imgURL: plant2,
+        name: "Spathiphyllum Cochlearispathum",
+        price: "$4.00",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        imgURL: plant3,
+        name: "Chameadorea Catarcatarum",
+        price: "$6.90",
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        imgURL: plant4,
+        name: "String of Pearl",
+        price: "$2.99",
     },
 ];
 

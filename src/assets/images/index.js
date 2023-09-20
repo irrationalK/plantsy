@@ -16,6 +16,13 @@ import shoe6 from './shoe6.svg'
 import shoe7 from './shoe7.svg'
 import shoe8 from './shoe8.svg'
 
+import plant1 from './plant1.png'
+import plant2 from './plant2.png'
+import plant3 from './plant3.png'
+import plant4 from './plant4.png'
+import plant5 from './plant5.png'
+import plant6 from './plant6.png'
+
 import thumbnailBackground from './thumbnail-background.svg'
 
 export {
@@ -35,6 +42,13 @@ export {
     shoe6,
     shoe7,
     shoe8,
+
+    plant1,
+    plant2,
+    plant3,
+    plant4,
+    plant5,
+    plant6,
 
     thumbnailBackground
 }
